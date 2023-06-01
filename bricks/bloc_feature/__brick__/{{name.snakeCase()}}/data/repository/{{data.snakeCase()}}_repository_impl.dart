@@ -1,4 +1,4 @@
-import '../data_provider/{{data}}_data_provider.dart';
+import '../data_provider/{{data.snakeCase()}}_data_provider.dart';
 import '{{data}}_repository.dart';
 
 class {{data.pascalCase()}}RepositoryImpl extends {{data.pascalCase()}}Repository{
